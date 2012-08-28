@@ -2,6 +2,10 @@ Welcome to Sinon.JS Documentation.
 ==================================
 
 Contents:
+---------
+
+各Sinon.JSファイル
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -24,6 +28,16 @@ Contents:
    docs/sinon/util/timers_ie
    docs/sinon/util/xhr_ie
 
+使用方法
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   docs/sample/index
+
+相関図
+------
 
 .. blockdiag::
    :desctable:
