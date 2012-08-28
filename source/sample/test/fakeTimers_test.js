@@ -1,9 +1,3 @@
-/**
- * User: ryuone
- * Date: 2012/08/26
- * Time: 21:42
- * License: MIT License
- */
 var sinonTestCase = sinon.testCase({
     setUp:function () {
     },

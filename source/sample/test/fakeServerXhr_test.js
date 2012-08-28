@@ -1,9 +1,3 @@
-/**
- * User: ryuone
- * Date: 2012/08/26
- * Time: 21:44
- * License: MIT License
- */
 var sinonTestCase = sinon.testCase({
     setUp:function () {
         this.server = this.server.create();
@@ -44,7 +38,6 @@ var sinonTestCase = sinon.testCase({
         assertTrue(this.server.requests.length === 1);
         assertEquals(this.server.requests[0].url, "/todo/42/items");
         assertEquals(this.server.requests[0].responseText, '[{"id":1,"text":"Provide examples","done":true}]');
-
     }
 });
 
